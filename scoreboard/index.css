@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    color: white;
+    --background-color: #111827;
+    --background-counter: #080001;
+    --font-color: #F94F6D;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.h3_title {
+    margin-bottom: -70px;
+}
+div .main,
+div .guest {
+    width: 150px;
+}
+
+div h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+
+}
+
+.home_count-down,
+.guest_count-down {
+
+    height: 120px;
+    background: var(--background-counter);
+    border-radius: 5px;
+}
+
+
+
+.counter {
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    width: 145px;
+    /* or 141% */
+    text-align: center;
+    color: var(--font-color);
+}
+
+.plus_one-home,
+.plus_two-home,
+.plus_three-home,
+.plus_one-guest,
+.plus_two-guest,
+.plus_three-guest {
+    /* display: flex; */
+    box-sizing: content-box;
+    border: 2px solid grey;
+    /* padding: 5px;
+    margin: 10px; */
+    width: 20%;
+    height: 25.77px;
+    /* top: 280px; */
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 28px; */
+    /* or 155% */
+
+    text-align: center;
+    color: #9AABD8;
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+.reset_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.reset_menu-button {
+
+    /* margin-left: 45%; */
+
+    box-sizing: content-box;
+    border: 2px solid grey;
+    height: 25.77px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #9AABD8;
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--background-counter);
+    border: 2px dashed #F94F6D;
+}
